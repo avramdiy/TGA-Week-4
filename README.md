@@ -1,4 +1,4 @@
-### 2/2
+### 2/2/25
 
 - Transferred Week 3 visuals & data to this public link.
 
@@ -6,6 +6,14 @@
 
 - Added 1.31.25 files for Week 4.
 
-### 2/3
+### 2/3/25
 
 - Added 2.1.25 files
+
+### 2/4/25
+
+- Added 2.2.25 files
+
+### 2/5/25
+
+- Added 2.3.25 files
