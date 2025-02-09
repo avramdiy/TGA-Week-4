@@ -29,3 +29,7 @@
 ### 2/8/25
 
 - Added 2.6.25 files, final day of files, visualize later.
+
+### 2/9/25
+
+- Added visualizations. End Week 4.

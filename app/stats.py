@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 # Specify the exact paths to your Stats.csv files
 STATS_FILES = [
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_24_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_25_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_26_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_27_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_28_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_29_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_30_25\Stats.csv"
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_1_31_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_1_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_2_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_3_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_4_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_5_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_6_25\Stats.csv"
 ]
 
 def compile_stats_data():
@@ -72,7 +72,7 @@ def create_minutes_watched_bar_chart(stats_df):
     plt.tight_layout()
 
     # Save the chart
-    chart_path = r'C:\Users\Ev\Desktop\Twitch Growth Analysis\minutes_watched_chart.png'
+    chart_path = r'C:\Users\Ev\Desktop\TGA Week 4\minutes_watched_chart.png'
     plt.savefig(chart_path)
     plt.close()
     return chart_path
@@ -97,7 +97,7 @@ def create_line_chart(stats_df):
     plt.tight_layout()
 
     # Save the chart
-    chart_path = r'C:\Users\Ev\Desktop\Twitch Growth Analysis\line_chart_stats.png'
+    chart_path = r'C:\Users\Ev\Desktop\TGA Week 4\line_chart_stats.png'
     plt.savefig(chart_path)
     plt.close()
     return chart_path

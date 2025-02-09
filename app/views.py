@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 # Paths to your Views.csv files
 VIEWS_FILES = [
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_24_25\Views.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_25_25\Views.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_26_25\Views.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_27_25\Views.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_28_25\Views.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_29_25\Views.csv",
-    r"C:\Users\Ev\Desktop\Twitch Growth Analysis\DTM_1_30_25\Views.csv"
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_1_31_25\Views.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_1_25\Views.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_2_25\Viewss.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_3_25\Views.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_4_25\Views.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_5_25\Views.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_6_25\Views.csv"
 ]
 
 # Views types we expect
@@ -79,7 +79,7 @@ def create_bar_chart(views_df):
     plt.tight_layout()
 
     # Save the chart
-    chart_path = r'C:\Users\Ev\Desktop\Twitch Growth Analysis\views_chart.png'
+    chart_path = r'C:\Users\Ev\Desktop\TGA Week 4\views_chart.png'
     plt.savefig(chart_path)
     plt.close()
     return chart_path
